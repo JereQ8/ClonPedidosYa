@@ -1,11 +1,16 @@
+// import { useEffect } from 'react';
 import './App.css';
-import Menu from './components/menu'
-
+import Interfaz from './components/interfaz';
+import Menu from './components/menu';
 
 function App() {
+
+  
+
   return (
     <div className="App">
       <Menu/>
+      <Interfaz/>
     </div>
   );
 }
